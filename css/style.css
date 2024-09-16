@@ -1,0 +1,141 @@
+body{
+    font-family: 'Staatliches', cursive;
+    display: flex;
+    flex-direction:row;
+    background-color: rgb(148, 197, 249);
+}
+
+.container{
+    margin-top: 9.4%;
+    margin-left: 7%; 
+    width: 48%;
+    height: 520px;
+    border: 1px solid  black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titulo{
+    margin-top: -45px;
+    font-size: 10rem;
+}
+.teste{
+    background-color: #2086c9;
+    width: 35%;
+    height: 500px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.nome{
+    font-size: 2rem;
+    margin-top: 3%;
+    margin-left: 3%;
+    color: #2086c9;
+}
+.input_nome{
+    width: 50%;
+    height: 6%;
+    display: flex;
+    border-radius: 2px;
+    margin-left: 3%;
+    border: 1px solid black;
+    outline: none;
+}
+
+input:focus{
+    border-color: #2086c9;
+}
+
+.idade{
+    color: #2086c9;
+    font-size: 2rem;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.input_idade{
+    width: 50%;
+    height: 6%;
+    display: flex;
+    border-radius: 2px;
+    margin-left: 3%;
+    border: 1px solid black;
+    outline: none;
+}
+
+.peso{
+    color: #2086c9;
+    font-size: 2rem;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.input_peso{
+    width: 50%;
+    height: 6%;
+    display: flex;
+    border-radius: 2px;
+    margin-left: 3%;
+    border: 1px solid black;
+    outline: none;
+}
+
+.altura{
+    color: #2086c9;
+    font-size: 2rem;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.input_altura{
+    width: 50%;
+    height: 6%;
+    display: flex;
+    border-radius: 2px;
+    margin-left: 3%;
+    border: 1px solid black;
+    outline: none;
+}
+
+.orientacao{
+    font-size: 0.7rem;
+    color: #d3ab28;
+    margin-top: auto;
+    margin-left: 23.2%;
+}
+
+.btn{
+    width: 8%;
+    height:4%;
+    border-radius: 10px;
+    position: absolute;
+    align-self:last baseline;
+    margin-top: 23%;
+    margin-right: 6.5%;
+    border: 1px solid rgb(148, 197, 249);
+    background-color: #2086c9;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #57b6f6;
+    color: white;
+}
+
+.resultado-texto{
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+    margin: 20px 0;
+} 
+
+.img{
+    width: 15%;
+    position: absolute;
+    align-self:last baseline;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+

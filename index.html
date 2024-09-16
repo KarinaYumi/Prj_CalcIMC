@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cálculo IMC</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">    
+</head>
+<body>
+        <div class="teste">
+            <h1 class="titulo">Índice de Massa Corporal</h1>
+        </div>
+        <form class="container" method="POST" onsubmit="salvarDados(event)" >
+
+                    <img src="img/balanca.png" class="img">
+                
+                    <label class="nome" name="nome">Digite o NOME: </label>
+                    <input class="input_nome" type="text" id="nome" onkeypress="return validacaoNome(event,this);" name="nome" required >
+
+                    <label class="idade" name="idade">Digite a IDADE:</label>
+                    <input class="input_idade" type="number" min="1" id="idade" min="1" required>
+
+                    <label class="peso" name="Numero">PESO:</label>
+                    <input class="input_peso" type="number" id="peso" name="peso" min="1" step="0.01" placeholder="Ex: 54.2" autocomplete="off" required>
+
+                    <label class="altura" name="Numero">ALTURA:</label>
+                    <input class="input_altura" type="number" id="altura" name="altura" min="1" step="0.01" placeholder="Ex: 1.65" autocomplete="off" required>
+
+                    <button type="submit" class="btn">Calcular IMC</button>
+        </form>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
